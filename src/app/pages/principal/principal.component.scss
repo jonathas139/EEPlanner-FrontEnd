@@ -1,0 +1,94 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+.principal {
+    margin: 40px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    border: 3px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section{
+    margin: 0 200px;
+}
+
+img {
+    width: 200px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#date {
+    width: 180px; /* Largura completa */
+    padding: 8px; /* Espaçamento interno */
+    border: 2px solid gray; /* Cor da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 15px; /* Tamanho da fonte */
+    background-color: #f9f9f9; /* Cor de fundo */
+    transition: border-color 0.3s; /* Transição suave para a cor da borda */ 
+    
+}

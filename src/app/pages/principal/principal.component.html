@@ -1,0 +1,68 @@
+
+    <div class="principal">
+
+        <header>
+            <img src="/assets/png/EEPlanner.png">
+                <!-- Seção de Informações do Usuário -->
+            <div class="info-usuario">
+                <h3>Usuário Logado: <span id="usuarioNome">Nome do Usuário</span></h3>
+                <p>Email: <span id="usuarioEmail">usuario</span></p>
+                <button id="logoutButton">Sair</button>
+            </div>
+        </header>
+      
+
+        <section>
+
+                    <!-- Seção Criar Tarefa -->
+            <div class="criar-tarefa">
+                <h2>Criar Tarefa</h2>
+                <form id="tarefaForm">
+                    <div>
+                        <label for="titulo">Título:</label>
+                        <input type="text" id="titulo" required>
+                    </div>
+                    <div>
+                        <label for="data">Data de Termino: </label>
+                        <input type="date" id="date" required>
+                    </div>
+
+                    <div>
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" required></textarea>
+                    </div>
+
+                    
+                 
+                    <button type="submit">Criar Tarefa</button>
+                </form>
+            </div>
+
+            <!-- Seção Tarefas Criadas -->
+            <div class="tarefas-criadas">
+                <h2>Tarefas Criadas</h2>
+                <ul id="listaTarefasCriadas">
+                    <!-- As tarefas criadas serão adicionadas aqui -->
+                    <li>
+                        <h3>Título da Tarefa 1</h3>
+                        <p>Descrição da Tarefa 1</p>
+                        <div class="btn">
+                            <button onclick="" style="background-color:blue;">Editar</button>
+                            <button onclick="" style="background-color: red;">Remover</button>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <h3>Título da Tarefa 2</h3>
+                        <p>Descrição da Tarefa 2</p>
+                        <div class="btn">
+                            <button onclick="" style="background-color:blue;">Editar</button>
+                            <button onclick="" style="background-color: red;">Remover</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+        
+    </div>
